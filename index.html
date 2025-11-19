@@ -2,23 +2,16 @@
 <html lang="en">
   <head>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta charset="utf-8" />
     <title>adiction</title>
 <style>
-  html, body {
+  *{
     margin: 0;
     padding: 0;
-    height: 100%;
-    -webkit-touch-callout: none; /* opcional para UX móvil */
+    box-sizing: border-box;
   }
-  /* aseguramos que canvas ocupe y esté encima */
-  body > canvas {
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    display: block;
-    z-index: 0;
-    /* ancho y alto los controla JS (no uses 100vh en CSS aquí) */
+  body{
+    background-color: rgb(255, 253, 208);
   }
 </style>
   </head>
